@@ -1,0 +1,50 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+.button {
+	padding: 0.5em;
+}
+
+#cemetery {
+	display: grid;
+	grid-template-columns: repeat(24, 1fr);
+	/* bottom h2 in 20em but intended for 7em once we have a 4th grave */
+    grid-template-rows: 50px 20em 20em 7em;
+}
+
+.cemH2 {
+	grid-column: span 24;
+	padding-right: 13em;
+	text-align: right;
+	color: red;
+}
+
+.gravestone {
+	/*margin: 1em 2em;*/
+	/*padding: 40px;*/
+	font-weight: bold;
+	outline: none;
+	cursor: pointer;
+	color: #F5F5F5;
+	background-color: gray;
+	transition: color 1s, background 1s linear;
+	p {
+		margin-top: 50px;
+	}
+}
+
+.gravestone:hover {
+	color: black;
+	background-color: red;
+}
+
+.specificApp {
+	padding: 2em;
+}
+
+.challengeHeader {
+	padding: 1em;
+	background-color: blue;
+}
