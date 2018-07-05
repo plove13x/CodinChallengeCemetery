@@ -1,12 +1,12 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import Cemetery from './components/Cemetery';
-import ChallengeContainer from './components/ChallengeContainer';
-import ToDoListApp from './components/ToDoListApp';
-import styles from './app.css';
+import Cemetery from './src/components/Cemetery';
+import ChallengeContainer from './src/components/ChallengeContainer';
+import ToDoListApp from './src/components/ToDoListApp';
+import styles from './src/app.css';
 
 const appDescriptions = {
-	ToDoListApp: <img src="../screenshots/testA.png" />
+	ToDoListApp: <img src="./screenshots/testA.png" />
 };
 
 class App extends React.Component {

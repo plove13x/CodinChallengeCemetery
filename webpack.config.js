@@ -1,7 +1,7 @@
 // This library allows us to combine paths easily
 const path = require('path');
 module.exports = {
-   entry: path.resolve(__dirname, 'src', 'app.jsx'),
+   entry: path.resolve(__dirname, 'app.jsx'),
    output: {
       path: path.resolve(__dirname, 'output'),
       filename: 'bundle.js'
@@ -25,7 +25,8 @@ module.exports = {
       ]
    },
    devServer: {
-      contentBase: './src',
+      // moved index.html up to root for GH Pages to work
+      // contentBase: './src',
       publicPath: '/output'
    },
    mode: 'development'
