@@ -7,12 +7,12 @@ class Cemetery extends React.Component {
 	    }
 
 	    openOldJSP() {
-	    	alert('Yo don\'t be scared; it\'s just the old verison of this with three codin\' challenges from back in 2015. They\'re extra crispy so I opened them in a new tab so we won\'t stink up the joint.');
+	    	alert('Yo don\'t be scared; it\'s just the old verison of this from back in 2015. They\'re extra crispy so I opened them in a new tab so we won\'t stink up the joint.');
 	    	window.open('http://plove13x.github.io/JSPlayground/','_blank');
 	    }
 
 	    openBookkeeper() {
-	    	alert('Be forewarned as I dig up this grave for you in a new tab: the requirements for this challenge included using https://github.com/typicode/json-server to create a full fake REST API. Therefore, while I can experience the ability to save changes on my local instance, any changes you make will not persist (but rather DIE) without JSON-server running.');
+	    	alert('Be forewarned as I dig up this grave for you in a new tab: the requirements for this challenge included using https://github.com/typicode/json-server to create a full fake REST API. Therefore, while I can save changes on my local instance, any changes you make will not persist (but rather DIE) without JSON-server running.');
 	    	window.open('https://plove13x.github.io/react-coding-challenge/public/index.html', '_blank');
 	    }
 

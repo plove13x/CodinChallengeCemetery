@@ -24,18 +24,21 @@
 .gravestone {
 	/*margin: 1em 2em;*/
 	/*padding: 40px;*/
+	filter: drop-shadow(15px 10px 2px #A9A9A9);
+	border: 1px solid black;
 	font-weight: bold;
 	outline: none;
 	cursor: pointer;
 	color: #F5F5F5;
 	background-color: gray;
-	transition: color 1s, background 1s linear;
+	transition: color 1s, background 1s, filter 1s linear;
 	p {
 		margin-top: 50px;
 	}
 }
 
 .gravestone:hover {
+	filter: drop-shadow(0 0 0.75rem gray);
 	color: black;
 	background-color: red;
 }
